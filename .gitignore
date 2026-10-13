@@ -1,0 +1,23 @@
+# dependencies / builds
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+# local env
+.env
+.env.local
+backend/.env
+# python
+__pycache__/
+*.pyc
+backend/.venv/
+.pytest_cache/
+# datasets & generated results (download / regenerate locally)
+backend/data/raw/*.npz
+backend/data/raw/*.part
+backend/data/processed/
+backend/results/experiments/*.json
+backend/results/models/*.pt
+# os
+.DS_Store
